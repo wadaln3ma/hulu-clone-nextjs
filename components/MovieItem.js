@@ -28,5 +28,7 @@ const MovieItem = forwardRef(({ movie }, ref)=>{
         </div>
     )
 })
+
+MovieItem.displayName = 'MovieItem'
    
 export default MovieItem   

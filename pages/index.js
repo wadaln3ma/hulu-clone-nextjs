@@ -6,8 +6,7 @@ import axios from 'axios'
 import Results from '../components/Results'
 
 export default function Home({ movies }) {
-
-  return (
+  return(
     <div>
       <Head>
         <title>Hulu</title>
