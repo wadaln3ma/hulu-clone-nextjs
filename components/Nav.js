@@ -6,7 +6,7 @@ const Nav = ()=>{
 
   return(
     <nav className="relative">
-      <div className="flex space-x-10 sm:space-x-30 whitespace-nowrap px-10 sm:px-20 overflow-scroll no-scrollbar">
+      <div className="flex space-x-10 sm:space-x-30 whitespace-nowrap px-10 sm:px-20 overflow-x-scroll no-scrollbar">
         {
           Object.entries(requests).map(([key, {title, url}]) =>(
             <h2 key={key}
